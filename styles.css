@@ -43,7 +43,7 @@ body {
 
 .previous-slide-left  {
   color: #fff;
-  font-family: customFont3, Arial, Helvetica, sans-serif;
+  font-family: customFont3, sans-serif;
 }
 
 .next-slide-right {
@@ -60,34 +60,34 @@ body {
 
 .next-slide-right p {
   color: #15ad8e;
-  font-family: customFont3, Arial, Helvetica, sans-serif;
+  font-family: customFont3, sans-serif;
 }
 
 @font-face {
-  font-family: customFont1 Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
   src: url(fonts/Roboto-Regular.ttf);
   color: #fff;
 }
 
 @font-face {
-  font-family: customFont2 Arial, Helvetica, sans-serif;
+  font-family: customFont2 sans-serif;
   src: url(fonts/AktivGrotesk-Light.ttf);
   color: #fff;
 }
 
 @font-face {
-  font-family: customFont3, Arial, Helvetica, sans-serif;
+  font-family: customFont3, sans-serif;
   src: url(fonts/AktivGrotesk-Bold.ttf)
 }
 
 @font-face {
-  font-family: customFont4, Arial, Helvetica, sans-serif;
+  font-family: customFont4, sans-serif;
   src: url(fonts/Roboto-Regular.ttf);
   color: #000;
 }
 
 @font-face {
-  font-family: customFont5 Arial, Helvetica, sans-serif;
+  font-family: customFont5 sans-serif;
   src: url(fonts/AktivGrotesk-Light.ttf);
   color: #000;
 }
@@ -106,7 +106,7 @@ body {
 
 .column.navigation {
   width: 15%;
-  font-family: customFont1, Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
   padding: 5vh 20px 5vh 20px;
   font-size: 1.2vw;
   text-align: center;
@@ -206,7 +206,7 @@ body {
 /*HEADER-LINE-1 ANIMATION*/
 
 #header-line-1 {
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -228,12 +228,12 @@ body {
   font-size: 6vw;
   line-height: 1;
   white-space: nowrap;
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   color: #fff;
 }
 
 #header-line-3 {
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   font-size: 10vw;
   line-height: 1;
   padding-top: 1%;
@@ -243,7 +243,7 @@ body {
 
 h3 {
   font-size: 40vw;
-  font-family: customFont3, Arial, Helvetica, sans-serif;
+  font-family: customFont3, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -284,7 +284,7 @@ h3 {
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 20px;
-  font-family: customFont3, Arial, Helvetica, sans-serif;
+  font-family: customFont3, sans-serif;
 }
 
 
@@ -383,18 +383,18 @@ h3 {
 }
 
 .about-column-content h2 {
-  font-family: customFont5, Arial, Helvetica, sans-serif;
+  font-family: customFont5, sans-serif;
   padding-bottom: 10px;
 }
 
 .about-column p {
-  font-family: customFont4, Arial, Helvetica, sans-serif;
+  font-family: customFont4, sans-serif;
   padding-bottom: 2rem;
 }
 
 .intro-column p {
   color: #fff;
-  font-family: customFont1 Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
   margin-bottom: 30px;
 }
 
@@ -456,7 +456,7 @@ h3 {
   top: 10%;
   color: #fff; 
   padding: 50px;
-  font-family: customFont1, Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
   text-align: right;
 }
  
@@ -521,11 +521,11 @@ h3 {
 }
 
 .content h2 {
-  font-family: customFont4, Arial, Helvetica, sans-serif;
+  font-family: customFont4, sans-serif;
 }
 
 .content p {
-  font-family: customFont5, Arial, Helvetica, sans-serif;
+  font-family: customFont5, sans-serif;
 }
 
 .timeline {
@@ -598,14 +598,14 @@ h3 {
 }
 
 .projects-column h2 {
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   color: #fff;
   padding: 20px;
 }
 
 .projects-column p {
   color: #fff;
-  font-family: customFont1, Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
   padding-top: 20px;
   padding: 20px;
 }
@@ -661,7 +661,7 @@ h3 {
 .services-header {
   padding: 20%;
   padding: 30% 20% 10% 20%;
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   color: #fff;
 }
 
@@ -698,7 +698,7 @@ h3 {
 /* TAB STYLING */
 
 .tab-panel-column {
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   padding: 10%;
   display: flex;
   flex-direction: column;
@@ -731,7 +731,7 @@ h3 {
 
 sl-tab-panel {
   --padding: 30px;
-  font-family: customFont1, Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
 }
 
 sl-tab-group {
@@ -826,7 +826,7 @@ sl-tab-group {
 .contact h2 {
   color: #fff;
   padding: 20px 20px 20px 0px;
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
 }
 
 .form-row {
@@ -885,7 +885,7 @@ input[type=submit]:hover {
 
 .back-to-home p {
   color: #fff;
-  font-family: customFont3, Arial, Helvetica, sans-serif;
+  font-family: customFont3, sans-serif;
 }
 
 .back-to-home i {
@@ -900,7 +900,7 @@ input[type=submit]:hover {
 /* Dialog styling */
 
 .dialog-width::part(title){
-  font-family: customFont2, Arial, Helvetica, sans-serif;
+  font-family: customFont2, sans-serif;
   font-size: 2rem;
   color: #15ad8e;
   padding-left: 20px;
@@ -908,7 +908,7 @@ input[type=submit]:hover {
 }
 
 .dialog-width::part(body){
-  font-family: customFont1, Arial, Helvetica, sans-serif;
+  font-family: customFont1, sans-serif;
   font-size: 1rem;
 }
 

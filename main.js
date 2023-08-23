@@ -29,25 +29,25 @@ document.querySelectorAll(".anchor").forEach(anchor => {
         //CONSOLE LOG WORKS BUT ALL OPTIONS I HAVE TRIED WON'T WORK ALONGSIDE OF SCROLLTRIGGER//
   
    
-    })
     });
+});
 
 
 
 // detect accessibility switch change 
-let accessibleSwitch = document.querySelector('#accessibility-switch')
+let accessibleSwitch = document.querySelector('#accessibility-switch');
 accessibleSwitch.addEventListener('sl-change', () => {
     if(accessibleSwitch.checked === true){
-        accessibleMode()
+        accessibleMode();
     }
     else{
-        regularMode()
+        regularMode();
     }
 });
 
 //define accessible mode and create gsap timeline to animate elements
 function accessibleMode () {
-    const tl = new TimelineMax({delay:0.5})
+    const tl = new TimelineMax({delay:0.5});
     tl.to('.home-bg.regular', {opacity: 0, duration: 0.5})
     .to('.home-bg.accessible', {opacity: 1, duration: 0.5}, '-=0.5')
     .to('#question-mark-regular', {opacity: 0}, '-=0.5')
@@ -65,12 +65,12 @@ function accessibleMode () {
     .to('.services-bg.regular', {opacity: 0}, '-=0.5')
     .to('.services-bg.accessible', {opacity: 1}, '-=0.5')
     .to('.contact-bg.regular', {opacity: 0}, '-=0.5')
-    .to('.contact-bg.accessible', {opacity: 1}, '-=0.5')
-};
+    .to('.contact-bg.accessible', {opacity: 1}, '-=0.5');
+}
 
 //define regular mode and create gsap timeline to animate elements
 function regularMode () {
-     const tl = new TimelineMax({delay:0.5})
+     const tl = new TimelineMax({delay:0.5});
      tl.to('.home-bg.accessible', {opacity: 0, duration: 0.5})
      .to('.home-bg.regular', {opacity: 1, duration: 0.5}, '-=0.5')
      .to('#question-mark-accessible', {opacity: 0}, '-=0.5')
@@ -84,14 +84,14 @@ function regularMode () {
      .to('.projects-bg.accessible', {opacity: 0}, '-=0.5')
      .to('.projects-bg.regular', {opacity: 1}, '-=0.5')
      .to('.contact-bg.accessible', {opacity: 0}, '-=0.5')
-     .to('.contact-bg.regular', {opacity: 1}, '-=0.5')
-};
+     .to('.contact-bg.regular', {opacity: 1}, '-=0.5');
+}
 
 /*-------------------------PANEL 3 EXPERIENCE PAGE----------------------------*/
 
 //animate timeline when tween reaches left center
 sections.forEach(section => {
-  let timelineAnimation = section.querySelectorAll('.animation')
+  let timelineAnimation = section.querySelectorAll('.animation');
 
   gsap.from(timelineAnimation, {
     y: -130,
@@ -104,7 +104,7 @@ sections.forEach(section => {
       containerAnimation: scrollTween,
       start: "left center"
     }
-  })
+  });
 });
 
 /*-------------------------PANEL 4 PROJECTS PAGE----------------------------*/
