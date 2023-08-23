@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--import stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/themes/light.css"/>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/shoelace-autoloader.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/879537fc99.js" crossorigin="anonymous"></script>
+    <title>Pulse Property Solutions</title>
+    <link rel="icon" type="image/x-icon" href="images/Pulse-Property-Solutions-favicon.png">
+</head>
+<body> 
+
+  <div class="container">  
+
+    <!------------------------------------- PANEL 1 HOME ------------------------------------------------>
+    <section class="panel home" id="home">
+      <div class="home-bg regular"></div>
+      <div class="home-bg accessible"></div>   
+        <div class="columns">
+          <!-- Navigation bar -->
+          <div class="column navigation">
+            <div class="navigation-reg">
+              <!-- regular nav bar version -->
+              <nav class="nav-list nav-regular">       
+                  <a class="anchor" href="#about">About Us</a>
+                  <a class="anchor" href="#experience">Experience</a>
+                  <a class="anchor" href="#projects">Projects</a>
+                  <a class="anchor" href="#services">Services</a>
+                  <a class="anchor" href="#contact">Contact Us</a>
+                  <a href="https://pulsepropertysolutions.com.au" target="_blank"><img class="nav-icon" src="images/Pulse-Property-Solutions-favicon.png" alt="Pulse-Property-Solutions-Icon" width="50" height="50"/></a>
+              </nav>
+            </div>
+            <!-- accessible nav bar version (high contrast) -->
+            <div class="navigation-acc">
+                <nav class="nav-list nav-accessible">       
+                    <a href="#about" class="anchor">About Us</a>
+                    <a href="#experience" class="anchor">Experience</a>
+                    <a href="#projects" class="anchor">Projects</a>
+                    <a href="#services" class="anchor">Services</a>
+                    <a href="#contact" class="anchor">Contact Us</a>
+                    <a href="https://pulsepropertysolutions.com.au" target="_blank"><img class="nav-icon" src="images/Pulse-Property-Solutions-favicon.png" alt="Pulse-Property-Solutions-Icon" width="50" height="50"/></a>
+                </nav> 
+            </div>     
+          </div>
+          <!-- main content -->
+          <div class="column column-content">
+            <div class="row row-content">
+                <div class="content-column question">
+                    <!-- css animation -->
+                    <h1 id="header-line-1">WHY</h1>
+
+                    <h2 id="header-line-2">use a project<br>manager for your</h2>
+                    <!-- animate.css animation -->
+                    <h2 id="header-line-3" class=" animate__animated animate__flipInX animate__delay-3s">SDA build</h2>
+                </div>
+                <div class="content-column question-mark qm-regular">
+                    <h3 id="question-mark-regular">?</h3>
+                </div>
+                <div class="content-column question-mark qm-accessible">
+                    <h3 id="question-mark-accessible">?</h3>
+                </div>
+                <div class="content-column switch-column">
+                    <div class="switch-container">
+                        <!-- shoelace tooltip -->
+                        <sl-tooltip id="switch-tooltip" content="Switch to high contrast" placement="bottom">
+                          <!-- shoelace switch -->  
+                          <sl-switch id="accessibility-switch">Accessbility Switch</sl-switch>
+                        </sl-tooltip>
+                    </div>
+                </div> 
+            </div>
+            <!--navigation arrows-->
+            <div class="row home-arrows">
+              <div class="home-arrows-col1"></div>
+              <div class="home-arrows-col2">
+                <div class="home-next-arrows-container">
+                  <a class="home-next-slide-right">
+                    <p class="home-next">NEXT</p>
+                    <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+    </section>
+
+    <!------------------------------------- PANEL 2 ABOUT ------------------------------------------------>
+    <section class="panel about" id="about">
+      <div class="about-bg regular"></div>
+      <div class="about-bg accessible"></div>
+      <!-- main content -->
+      <div class="about-row"> 
+        <div class="intro-column">
+          <p>Pulse Property Solutions can assist with each step of the property development process.</p>
+          <br>
+          <p>With our extensive experience in the residential development space, a comprehensive understanding of social and disability houisng and knowledge around the complexities of planning frameworks our team is well positioned to deliver an exceptional end-to-end property development service.</p>
+        </div>
+        <div class="about-column">
+            <div class="about-column-content">
+              <img id="about-us-page-logo" src="images/Pulse-Property-Solutions-Logo.png" alt="Pulse Property Solutions Logo" width="200">
+              <h2 class="about-header">Risk Management</h2>
+              <p>Reduce risk with an experienced SDA developer managing your project</p>
+              <h2 class="about-header">Compliance Confidence</h2>
+              <p>With a thorough knowledge of the complexities of the SDA Design Standard we work closely with the SDA Certifier and the entire consultant team</p>
+              <h2 class="about-header">Experience and Knowledge</h2>
+              <p>Our team has a comprehensive understanding of disability housing and knowledge around the complexities of planning frameworks and obtaining permits efficiently to deliver within reasonable timeframes</p>
+            </div>
+        </div>
+        <div class="pic-column">
+            <!-- css animation -->
+            <img src="images/Development-Management-Perth-Pulse-Property-Solutions-HOME.jpg" alt="Pulse Property Solutions Directors">
+        </div>
+      </div>
+      <!--navigation arrows-->
+      <div class="row arrows">
+        <div class="arrows-col1">
+            <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+        </div>
+        <div class="arrows-col2">
+          <div class="next-arrows-container reg">
+            <a class="next-slide-right">
+              <p class="next">NEXT</p>
+              <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!------------------------------------- PANEL 3 EXPERIENCE ------------------------------------------------>
+    <section class="panel experience" id="experience">
+      <div class="experience-page">
+        <!-- main content -->
+        <div class="experience-row">
+          <div class="experience-intro-column" id="experience-intro-column">
+              <div class="experience-intro-row">      
+                  <img src="images/nathan-anderson-GM5Yn5XRVqA-unsplash.jpg" alt="middle aged woman and young man hugging and smiling">
+                  <p>The team at Pulse are committed to developing long term relationships with clients, contractors, investors, and suppliers to ensure every step of the development process is given the consideration it deserves. As property developers and investors ourselves we understand the importance of delivering a quality product on time and on budget.</p>
+              </div>
+          </div>
+          <!-- timeline -->
+          <div class="timeline-column">
+            <div class="timeline">
+              <div class="item-container-pair pair-1">
+                <div class="item-container item1 timeline-animations animation">
+                  <div class="content">
+                    <img src="images/girrawheen.jpg" alt="Front elevation of Girrawheen disability home">
+                    <br>
+                    <p>Pulse is a experience family-owned property developer with many projects throughout Perth, the Southwest, the Pilbara and the Mid-West of WA since it's establishment.</p>
+                    <h2>2008</h2>
+                    <div class="timeline-marker top-marker"></div>
+                  </div>
+                </div>
+                <div class="item-container item2 timeline-animations animation">
+                  <div class="content">
+                    <img src="images/bayswater3.jpg" alt="Front elevation of Bayswater disability home">
+                    <br>
+                    <p>Pulse completes its second Pulse-owned SDA development in the suburb of Bayswater, featuring a private studio in each home. Additionally, Pulse hands over a two-home development to their second SDA Project Management client in Yokine.</p>
+                    <h2>2022</h2>
+                    <div class="timeline-marker top-marker"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- accessible versions of timeline -->
+              <div class="line-area regular"></div>
+              <div class="line-area accessible"></div>
+              <div class="item-container-pair pair-2">
+                <div class="item-container item3 timeline-animations animation">
+                  <div class="content">
+                    <div class="timeline-marker bottom-marker"></div>
+                    <h2>2021</h2>
+                    <p>Pulse becomes a registered SDA Provider and completes the first single-resident four-villa development in Warwick built to the High Physical Support category under NDIS guidelines.</p>
+                    <br>
+                    <img src="images/warwick1.jpg" alt="Front elevation of single-resident Warwick disability home">
+                  </div>
+                </div>
+                <div class="item-container item4 timeline-animations animation">
+                  <div class="content">
+                    <div class="timeline-marker bottom-marker"></div>
+                    <h2>2023</h2>
+                    <p>A second development Pulse-owned SDA development in Warwick is completed. This development comprises of two homes, a two-resident and a three-resident share-living arrangement.</p>
+                    <br>
+                    <img src="images/warwick2.jpg" alt="Elevation of two-home disability development in Warwick">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--navigation arrows-->
+        <div class="row arrows">
+          <div class="arrows-col1">
+              <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+          </div>
+          <div class="arrows-col2">
+            <div class="next-arrows-container">
+              <a class="next-slide-right arrows-reg">
+                <p class="next">NEXT</p>
+                <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!------------------------------------- PANEL 4 PROJECTS ------------------------------------------------>
+    <section class="panel projects" id="projects">
+      <div class="projects-bg regular"></div>
+      <div class="projects-bg accessible"></div>
+      <!-- main content -->
+      <div class="projects-row">
+        
+        <div class="projects-column">
+          <h2 id="projects-header">PROJECTS</h2>
+          <p>We deliver stunning boutique developments every time which fuse location and lifestyle. Scroll through our gallery to see some of our most recently completed projects.</p>
+        </div>
+        <div class="gallery-container">
+          <!-- splide image gallery -->
+          <div class="splide" role="group" aria-label="carousel">
+            <h2 id="carousel"></h2>
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide"><img src="images/r-architecture-2gDwlIim3Uw-unsplash.jpg" alt="Brown and white wooden house near green trees during daytime"></li>
+                <li class="splide__slide"><img src="images/r-architecture-rOk4VSMS3Ck-unsplash.jpg" alt="Gray sectional couch beside brown wooden table"></li>
+                <li class="splide__slide"><img src="images/r-architecture-L_j9OWElo1s-unsplash.jpg" alt="Brown wooden house during night time"></li>
+                <li class="splide__slide"><img src="images/r-architecture-NeN1D7Z3Ick-unsplash.jpg" alt="White and brown concrete building under blue sky during daytime"></li>
+                <li class="splide__slide"><img src="images/r-architecture-Cn87TISYij8-unsplash.jpg" alt="Brown tree near white concrete building" ></li>
+                <li class="splide__slide"><img src="images/r-architecture-wDDfbanbhl8-unsplash.jpg" alt="Black wooden table and chairs"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--navigation arrows-->
+      <div class="row arrows">
+        <div class="arrows-col1">
+            <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+        </div>
+        <div class="arrows-col2">
+          <div class="next-arrows-container">
+            <a class="next-slide-right">
+              <p class="next">NEXT</p>
+              <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!------------------------------------- PANEL 5 SERVICES ------------------------------------------------>
+    <section class="panel services" id="services">
+      <div class="services-bg regular"></div>
+      <div class="services-bg accessible"></div>
+      <!-- main content -->
+      <div class="services-row">
+        <div class="services-column">
+          <h2 class="services-header">Tailored management services to suit your project</h2>
+          <img src="images/nathan-anderson-J3Xjyg5m8kY-unsplash.jpg" alt="man and boy with heads together affectionately">
+        </div>
+        <!-- shoelace tab panel -->
+        <div class="tab-panel-column">
+          <sl-tab-group id="tab-group">
+            <sl-tab slot="nav" panel="Concept" id="concept-title">Concept & Design Development</sl-tab>
+            <sl-tab slot="nav" panel="DA" id="da-title">DA ready design & compliance</sl-tab>
+            <sl-tab slot="nav" panel="Construction" id="construction-title">Construction Management</sl-tab>
+
+            <sl-tab-panel name="Concept" id="concept-panel">
+                <div class="tab-container">
+                  <div class="tab concept-col1">
+                  <img src="images/concept-icon.png" alt="" id="concept-image"> 
+                  </div>
+                  <div class="tab concept-col2"> 
+                  <ul class="tab-list">
+                    <li>Site review and assessment</li>
+                    <li>Design configuration analysis</li>
+                    <li>Design brief</li>
+                    <li>Concept layouts</li>
+                  </ul>
+                </div>
+              <div class="tab concept-col3"></div>
+                </div>  
+            </sl-tab-panel>
+            <sl-tab-panel name="DA" id="da-panel">
+              <div class="tab-container">
+                <div class="tab-container"></div>
+                <div class="tab da-col1"></div>
+                <div class="tab da-col2">
+                <img src="images/DA-ready-icon.png" alt="" id="da-image">
+                </div>
+                <div class="tab da-col3">
+                <ul class="tab-list">
+                  <li>Development application design and coordination</li>
+                  <li>SDA compliance liaison</li>
+                  <li>Consultant team recommendations and collaboration</li>
+                  <li>Design recommendations to meet client and market needs</li>
+                </ul>
+              </div>
+              </div>
+            </sl-tab-panel>
+            <sl-tab-panel name="Construction" id="construction-panel">
+              <div class="tab-container">
+                <div class="tab const-col1"></div>
+                <div class="tab const-col2">
+                  <img src="images/construction-icon.png" alt="" id="construction-image">
+                </div>
+                <div class="tab const-col3">
+                  <ul class="tab-list">
+                    <li>Finalise specification and selections</li>
+                    <li>Build contract negotiations</li>
+                    <li>Site inspections and progress reports</li>
+                    <li>Builder liaison during construction</li>
+                  </ul>
+                </div>
+                </div>
+            </sl-tab-panel> 
+          </sl-tab-group>
+        </div>
+        <!-- SVG wheelchair image-->
+        <div class="wheelchair-div">
+            <svg class="wheelchair-animation" width="215" height="183.75" viewBox="0 0 860 735" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="wheelchair">
+            <circle id="background" cx="469" cy="395" r="315" fill="white"/>
+            <g id="man">
+            <path id="Vector" d="M459.5 610.132C389.084 610.132 332 563.589 332 506.175C332 448.762 389.084 402.219 459.5 402.219C529.916 402.219 587 448.762 587 506.175C587 563.589 529.916 610.132 459.5 610.132Z" fill="#36334A"/>
+            <path id="Vector_2" d="M397.369 173.925C417.273 182.98 438.977 186.9 460.642 185.353C455.076 181.214 451.505 174.568 450.066 167.6C448.626 160.632 449.174 153.349 450.661 146.392C450.933 145.597 450.917 144.727 450.616 143.944C450.312 143.551 449.927 143.234 449.489 143.017C449.051 142.799 448.573 142.687 448.088 142.688C439.698 141.47 415.666 136.183 409.277 143.672C406.249 147.221 407.408 154.114 406.303 158.449C405.847 160.239 400.007 175.129 397.369 173.925Z" fill="#FBBEBE"/>
+            <path id="Vector_3" opacity="0.1" d="M397.369 173.925C417.273 182.98 438.977 186.9 460.642 185.353C455.076 181.214 451.505 174.568 450.066 167.6C448.626 160.632 449.174 153.349 450.661 146.392C450.933 145.597 450.917 144.727 450.616 143.944C450.312 143.551 449.927 143.234 449.489 143.017C449.051 142.799 448.573 142.687 448.088 142.688C439.698 141.47 415.666 136.183 409.277 143.672C406.249 147.221 407.408 154.114 406.303 158.449C405.847 160.239 400.007 175.129 397.369 173.925Z" fill="black"/>
+            <path id="Vector_4" d="M467.301 322.615L591.782 326.609C591.782 326.609 701.9 438.432 610.933 472.378C610.933 472.378 498.9 491.348 472.089 469.383C472.089 469.383 438.575 331.601 467.301 322.615ZM473.047 359.557L606.145 368.543C606.145 368.543 596.57 334.596 558.268 334.596C519.966 334.596 476.877 325.611 473.047 346.578C469.216 367.544 473.047 359.557 473.047 359.557Z" fill="#3F3D56"/>
+            <path id="Vector_5" d="M565.436 304.702C571.645 303.712 578.395 303.139 583.834 306.417C585.644 307.598 587.325 308.981 588.847 310.542C591.034 312.635 593.204 314.747 595.357 316.878C596.932 318.436 598.58 320.154 598.984 322.379C599.815 326.955 594.745 330.641 590.281 330.462C585.817 330.283 581.812 327.726 577.596 326.185C569.106 323.082 537.881 328.387 536.175 318.853C534.006 306.732 558.531 305.848 565.436 304.702Z" fill="#FBBEBE"/>
+            <path id="Vector_6" d="M507.245 297.048C515.363 301.347 524.204 303.965 533.279 304.755C534.695 304.78 536.094 305.09 537.397 305.67C538.186 306.176 538.79 306.942 539.114 307.847C542.304 314.811 544.274 322.312 544.934 329.998C545.02 330.367 545.002 330.754 544.883 331.113C544.764 331.472 544.548 331.787 544.262 332.022C543.389 332.477 542.423 332.703 541.448 332.68C526.55 333.666 511.603 334.196 496.607 334.269C495.945 334.322 495.28 334.228 494.655 333.992C494.439 333.871 494.248 333.707 494.094 333.508C493.94 333.309 493.826 333.08 493.758 332.834C490.24 323.712 488.581 313.926 488.887 304.099C489.279 292.526 492.529 288.902 507.245 297.048Z" fill="#B6434E"/>
+            <path id="Vector_7" d="M339.948 401.491L503.688 395.5L465.386 226.767C465.386 226.767 312.179 214.786 316.009 255.722C319.839 296.657 339.948 401.491 339.948 401.491Z" fill="#36334A"/>
+            <path id="Vector_8" d="M498.02 482.149C498.02 482.149 596.57 500.334 631.999 446.419C667.428 392.505 497.943 421.459 497.943 421.459L483.58 462.394L498.02 482.149Z" fill="#36334A"/>
+            <path id="Vector_9" d="M527.627 711C502.771 711 482.622 689.991 482.622 664.074C482.622 638.158 502.771 617.149 527.627 617.149C552.482 617.149 572.631 638.158 572.631 664.074C572.631 689.991 552.482 711 527.627 711Z" fill="#36334A"/>
+            <path id="Vector_10" d="M523.318 698.021C507.717 698.021 495.07 682.822 495.07 664.074C495.07 645.326 507.717 630.128 523.318 630.128C538.918 630.128 551.565 645.326 551.565 664.074C551.565 682.822 538.918 698.021 523.318 698.021Z" fill="#3F3D56"/>
+            <path id="Vector_11" d="M281.538 221.775C281.538 221.775 318.882 199.81 320.797 251.728L352.396 493.345H338.99L302.604 234.755C302.604 234.755 284.41 237.75 281.538 237.75C278.665 237.75 281.538 221.775 281.538 221.775Z" fill="#3F3D56"/>
+            <path id="Vector_12" d="M244.327 248.435C244.668 249.717 245.269 250.908 246.088 251.929C246.908 252.95 247.927 253.776 249.077 254.352C250.228 254.929 251.483 255.242 252.759 255.271C254.035 255.3 255.303 255.045 256.476 254.522L299.797 235.21L291.939 217.161L249.244 237.437C247.302 238.359 245.74 239.974 244.839 241.99C243.937 244.006 243.756 246.291 244.327 248.435Z" fill="#36334A"/>
+            <path id="Vector_13" d="M507.518 476.372C507.518 476.372 576.462 468.385 595.612 537.275C614.763 606.166 612.848 659.082 629.127 655.089C645.405 651.095 679.876 637.117 679.876 637.117L677.004 658.084C677.004 658.084 616.678 690.033 607.103 656.087C597.528 622.141 591.782 497.339 537.202 500.334C482.622 503.329 473.047 497.339 473.047 497.339L507.518 476.372Z" fill="#3F3D56"/>
+            <path id="Vector_14" d="M638.702 443.424C638.702 443.424 692.324 450.413 713.39 491.348C734.456 532.283 744.989 606.166 744.989 606.166H724.881C724.881 606.166 713.39 459.399 653.065 467.386L638.702 443.424Z" fill="#3F3D56"/>
+            <path id="Vector_15" d="M675.089 672.062L760.31 617.149C760.31 617.149 765.098 597.18 710.518 589.193C710.518 589.193 607.326 626.823 617.269 640.956C627.211 655.089 660.726 677.054 675.089 672.062Z" fill="#36334A"/>
+            <path id="Vector_16" d="M542.947 493.345V610.16H530.499V491.348L542.947 493.345Z" fill="#3F3D56"/>
+            <path id="Vector_17" d="M524.754 565.231C524.754 565.231 500.815 663.076 516.136 677.054C516.136 677.054 536.245 615.152 551.565 623.139L546.778 565.231H524.754Z" fill="#36334A"/>
+            <path id="Vector_18" d="M431.872 157.877C411.248 157.877 394.528 140.443 394.528 118.938C394.528 97.4333 411.248 80 431.872 80C452.497 80 469.216 97.4333 469.216 118.938C469.216 140.443 452.497 157.877 431.872 157.877Z" fill="#FBBEBE"/>
+            <path id="Vector_19" d="M438.935 177.955C423.706 180.653 410.544 162.191 395.298 164.787C391.983 165.495 388.81 166.797 385.921 168.635C374.69 175.259 364.905 184.248 357.185 195.028C349.466 205.808 343.982 218.145 341.081 231.254C339.358 239.262 338.692 247.946 341.936 255.424C343.66 259.399 346.388 262.794 349.116 266.102C359.26 278.402 370.392 290.66 384.865 296.611C386.278 301.717 384.921 307.245 383.226 312.257C376.148 333.182 387.403 355.733 387.977 377.913C388.075 381.707 387.966 385.864 390.241 388.827C392.767 392.115 397.276 392.699 401.31 392.936C438.286 395.108 475.211 389.194 511.812 383.297C512.77 383.229 513.695 382.902 514.496 382.35C515.699 381.348 515.881 379.556 516.138 377.973C517.495 369.592 510.358 362.797 513.742 355.064C519.56 341.771 506.87 327.235 503.209 313.131C499.549 299.026 498.107 296.545 495.549 282.18C494.592 276.808 497.348 260.615 496.506 255.222C493.759 237.608 495.837 217.545 486.931 202.306C481.58 193.15 482.969 186.031 473.421 182.05C463.347 177.849 449.713 179.263 438.935 177.955Z" fill="#AE1D2B"/>
+            <path id="Vector_20" d="M607.587 410.169C618.735 412.411 630.572 414.549 639.151 422.303C644.391 427.039 647.912 433.458 651.333 439.747L686.236 503.911C696.881 523.48 707.531 543.06 717.182 563.181C718.026 564.645 718.52 566.298 718.625 568.002C718.587 570.403 717.039 572.467 715.454 574.21C709.948 580.162 703.184 584.69 695.702 587.433C688.22 590.176 680.227 591.058 672.36 590.009C669.959 577.047 658.143 568.481 652.352 556.742C649.169 550.292 647.891 543.039 645.836 536.108C638.174 510.26 619.986 489.503 602.328 469.679C593.982 460.31 585.439 450.778 574.687 444.63C562.072 437.418 547.434 435.422 533.337 432.427C519.24 429.432 504.643 424.89 494.668 414.08C490.434 409.424 487.246 403.845 485.334 397.746C483.422 391.647 482.834 385.182 483.612 378.817C492.643 378.158 502.694 376.934 511.406 379.962C521.524 383.48 531.31 388.287 541.443 391.88C563.063 399.547 585.163 405.658 607.587 410.169Z" fill="#696880"/>
+            <path id="Vector_21" opacity="0.1" d="M607.587 410.169C618.735 412.411 630.572 414.549 639.151 422.303C644.391 427.039 647.912 433.458 651.333 439.747L686.236 503.911C696.881 523.48 707.531 543.06 717.182 563.181C718.026 564.645 718.52 566.298 718.625 568.002C718.587 570.403 717.039 572.467 715.454 574.21C709.948 580.162 703.184 584.69 695.702 587.433C688.22 590.176 680.227 591.058 672.36 590.009C669.959 577.047 658.143 568.481 652.352 556.742C649.169 550.292 647.891 543.039 645.836 536.108C638.174 510.26 619.986 489.503 602.328 469.679C593.982 460.31 585.439 450.778 574.687 444.63C562.072 437.418 547.434 435.422 533.337 432.427C519.24 429.432 504.643 424.89 494.668 414.08C490.434 409.424 487.246 403.845 485.334 397.746C483.422 391.647 482.834 385.182 483.612 378.817C492.643 378.158 502.694 376.934 511.406 379.962C521.524 383.48 531.31 388.287 541.443 391.88C563.063 399.547 585.163 405.658 607.587 410.169Z" fill="black"/>
+            <path id="Vector_22" d="M758.063 613.633C759.306 614.561 760.262 615.848 760.812 617.335C762.08 621.838 756.675 625.011 752.35 626.308C742.633 629.224 732.265 632.146 722.573 629.141C716.629 627.299 711.457 623.35 705.551 621.377C696.788 618.45 687.296 620.112 678.236 621.799C676.212 609.924 677.574 597.69 682.153 586.613C685.059 579.622 696.694 576.22 703.621 575.913C711.193 575.578 713.823 581.403 718.194 586.765C728.839 599.824 745.798 602.851 758.063 613.633Z" fill="#3F3D56"/>
+            <path id="Vector_23" d="M600.472 429.295C605.83 431.516 611.323 433.829 615.526 437.945C619.963 442.29 622.56 448.251 624.928 454.098C631.927 471.381 637.885 489.101 642.768 507.157C645.235 516.281 647.434 525.509 650.758 534.332C657.392 551.94 668.648 568.804 667.59 587.69C667.597 589.985 667.004 592.238 665.877 594.209C664.375 596.482 661.818 597.689 659.389 598.788L646.657 604.553C639.825 607.646 631.487 610.62 625.383 606.169C621.298 603.191 619.666 597.789 618.434 592.753C613.984 574.565 611.234 555.673 603.26 538.844C594.248 519.824 579.01 504.453 570.947 484.975C569.805 482.218 568.723 479.26 566.479 477.379C564.626 475.824 562.223 475.219 559.904 474.668C512.083 463.315 463.183 457.104 415.745 444.122C409.001 442.276 401.945 440.085 397.134 434.823C390.463 427.527 389.868 416.437 389.654 406.359C389.521 400.044 389.549 393.183 393.239 388.174C397.4 382.524 404.862 381.033 411.656 380.287C437.714 377.429 461.749 381.932 487.414 385.229C510.896 388.247 534.547 402.067 556.454 411.096C571.133 417.146 585.806 423.212 600.472 429.295Z" fill="#696880"/>
+            <path id="Vector_24" d="M659.394 609.791C662.976 618.658 666.84 627.919 674.104 633.853C677.138 636.331 681.063 638.813 681.184 642.83C681.312 647.08 677.031 649.885 673.195 651.329C663.424 655.004 652.305 655.79 642.772 651.489C636.252 648.547 630.875 643.464 625.628 638.47C624.047 636.966 622.412 635.378 621.671 633.285C621.166 631.521 621.014 629.667 621.226 627.84C621.855 616.748 623.752 605.774 626.878 595.152C627.12 594.317 647.723 591.639 649.55 592.136C655.302 593.703 657.176 604.299 659.394 609.791Z" fill="#3F3D56"/>
+            <path id="Vector_25" d="M338.99 352.568L463.471 356.562C463.471 356.562 573.589 468.384 482.622 502.331C482.622 502.331 370.589 521.301 343.778 499.335C343.778 499.335 310.264 361.554 338.99 352.568ZM344.736 389.509L477.834 398.495C477.834 398.495 468.259 364.549 429.957 364.549C391.655 364.549 348.566 355.563 344.736 376.53C340.905 397.497 344.736 389.509 344.736 389.509Z" fill="#3F3D56"/>
+            <path id="Vector_26" d="M455.373 331.588C457.012 331.366 458.678 331.564 460.227 332.165C461.775 332.767 463.16 333.753 464.261 335.038C472.64 342.998 481.521 351.97 483.039 363.683C483.272 364.75 483.149 365.869 482.692 366.854C481.885 368.231 480.111 368.536 478.564 368.563C474.648 368.604 470.77 367.772 467.189 366.123C463.607 364.473 460.405 362.045 457.797 359C456.359 357.3 455.041 355.354 453.07 354.396C451.269 353.697 449.337 353.448 447.427 353.667C442.17 353.846 430.167 356.651 425.584 353.933C420.764 351.074 422.09 342.112 424.34 337.791C429.688 327.519 446.269 331.485 455.373 331.588Z" fill="#FBBEBE"/>
+            <path id="Vector_27" d="M338.417 245.328C335.197 256.127 337.083 268.291 332.521 278.552C329.493 285.362 323.799 290.852 322.035 298.13C320.369 305.008 322.601 312.419 326.517 318.221C330.432 324.022 335.884 328.477 341.351 332.698C347.338 337.321 353.555 341.833 360.609 344.332C367.644 346.826 375.184 347.203 382.607 347.557L431.808 349.909L440.87 321.583L408.811 308.49C405.602 307.18 402.334 305.855 398.897 305.59C392.963 305.132 385.726 307.403 381.915 302.639C380.705 300.888 379.935 298.848 379.676 296.707C376.567 280.066 379.273 262.459 374.487 246.256C372.118 238.237 365.283 222.15 355.962 220.734C346.083 219.234 340.651 237.834 338.417 245.328Z" fill="#B6434E"/>
+            </g>
+            <g id="wheel">
+            <path id="Vector_28" d="M464 579C464 638.094 416.094 686 357 686C297.906 686 250 638.094 250 579C250 519.906 297.906 472 357 472C416.094 472 464 519.906 464 579Z" stroke="#0E0E0F" stroke-width="66"/>
+            <g id="Rectangle 1">
+            <rect x="468.553" y="514" width="13" height="248" transform="rotate(62.789 468.553 514)" fill="#0E0E0F"/>
+            <rect x="468.553" y="514" width="13" height="248" transform="rotate(62.789 468.553 514)" fill="#0E0E0F"/>
+            <rect x="468.553" y="514" width="13" height="248" transform="rotate(62.789 468.553 514)" fill="#0E0E0F"/>
+            </g>
+            <g id="Rectangle 2">
+            <rect x="266" y="491.05" width="13" height="248" transform="rotate(-44.1209 266 491.05)" fill="#0E0E0F"/>
+            <rect x="266" y="491.05" width="13" height="248" transform="rotate(-44.1209 266 491.05)" fill="#0E0E0F"/>
+            <rect x="266" y="491.05" width="13" height="248" transform="rotate(-44.1209 266 491.05)" fill="#0E0E0F"/>
+            </g>
+            <g id="Rectangle 3">
+            <rect x="376.776" y="462" width="13" height="248" transform="rotate(12.287 376.776 462)" fill="#0E0E0F"/>
+            <rect x="376.776" y="462" width="13" height="248" transform="rotate(12.287 376.776 462)" fill="#0E0E0F"/>
+            <rect x="376.776" y="462" width="13" height="248" transform="rotate(12.287 376.776 462)" fill="#0E0E0F"/>
+            </g>
+            </g>
+            <path id="hair" d="M477.427 88.5634C475.582 84.3214 469.63 82.5667 467.68 78.3637C465.583 73.8435 468.87 68.0922 466.017 63.9332C463.143 59.7429 456.444 60.2339 451.112 61.0435C444.816 61.9993 438.121 62.642 432.249 60.3555C429.637 59.3386 427.319 57.7857 424.79 56.6076C420.769 54.7413 416.292 53.8505 411.788 54.0205C410.772 53.9992 409.767 54.2187 408.87 54.6576C408.018 55.2208 407.361 55.997 406.978 56.8934C405.142 60.535 404.879 65.0803 401.554 67.6924C399.956 68.947 397.884 69.5383 395.97 70.3416C391.515 72.3099 387.826 75.4819 385.403 79.4297C382.979 83.3774 381.937 87.9107 382.418 92.4176C382.855 94.5047 383.131 96.6177 383.242 98.7405C383.112 103.403 379.782 108.061 381.483 112.458C382.747 115.726 386.446 117.66 390.07 118.668C391.101 119.052 392.243 119.104 393.311 118.818C395.17 118.129 395.541 115.942 396.135 114.188C396.975 111.892 398.593 109.901 400.756 108.506C402.918 107.111 405.511 106.385 408.156 106.434C412.383 106.599 416.658 108.771 420.646 107.479C422.605 106.843 424.138 105.457 425.704 104.206C429.309 101.328 433.572 98.9329 438.308 98.3202C443.044 97.7074 448.291 99.1693 451.081 102.726C452.207 104.163 452.889 105.854 453.964 107.323C463.62 120.526 481.414 97.7249 477.427 88.5634Z" fill="#36334A"/>
+            </g>
+            </svg>
+          </div>
+      </div>
+      <!--navigation arrows-->
+      <div class="row arrows">
+        <div class="arrows-col1">
+            <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+        </div>
+        <div class="arrows-col2">
+          <div class="next-arrows-container">
+            <a class="next-slide-right">
+              <p class="next">NEXT</p>
+              <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--PANEL 6 CONTACT-->
+    <section class="panel contact" id="contact">
+      <div class="contact-bg regular"></div>
+      <div class="contact-bg accessible"></div> 
+      <div class="contact-container">
+        <div class="contact-column">
+          <h2>Contact Us</h2>
+            <!-- form -->
+            <div class="form-container">
+              <form action="/action_page.php">
+                <div class="form-row">
+                  <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="form-row">
+                  <input type="text" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <div class="form-row">
+                  <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-row">
+                  <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+                </div>
+                <br>
+                <div class="form-row">
+                  <!-- shoelace dialog -->
+                  <sl-dialog label="Thank you for contacting us. " class="dialog-width" style="--width: 50vw;">
+                    One of our team members will be in contact shortly to discuss how we can help with your SDA project soon.
+                    <br><br>In the meantime take a look at our website to find out more about our full suite of services:&nbsp;<a href="https://pulsepropertysolutions.com.au" target="_blank">pulsepropertysolutions.com.au</a>
+                    <br><br><br><img src="images/Pulse-Property-Solutions-Logo.png" alt="Pulse Property Solutions Logo" width="200">
+                    <sl-button class="close-button" slot="footer" variant="primary">Close</sl-button>
+                  </sl-dialog>
+                  <sl-button>SUBMIT</sl-button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="image-column">
+              <img src="images/elevate-vofmJUVScDE-unsplash.jpg" alt="man in wheelchair enjoying a drink with friends"> 
+        </div>
+        <!--navigation arrows-->
+        <div class="row arrows">
+          <div class="arrows-col1">
+              <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+          </div>
+          <div class="arrows-col2">
+            <div class="back-to-home">
+              <a class="back-to-home">
+                <i class="fa-solid fa-arrow-rotate-left fa-bounce fa-2xl"></i><p id="back-to-home">&nbsp;&nbsp;BACK TO HOME</p>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+   
+  <!-- import scripts -->  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/shoelace-autoloader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
